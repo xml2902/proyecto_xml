@@ -24,4 +24,26 @@
 	<direccion>cra 9 a </direccion>
 	<celular>3242</celular>
 </usuario_unico>
-<usuario_unico><usuario>cristhian</usuario><contrasena>cristhian12331</contrasena><nombreCompleto>231</nombreCompleto><direccion>sad</direccion><celular>231</celular></usuario_unico><usuario_unico><usuario>tester</usuario><contrasena>testerqa</contrasena><nombreCompleto>soy un tester :D</nombreCompleto><direccion>no me acuerdo</direccion><celular>32</celular></usuario_unico><usuario_unico><usuario>Angie2902</usuario><contrasena></contrasena><nombreCompleto></nombreCompleto><direccion></direccion><celular></celular></usuario_unico></registro_usuario>
+<usuario_unico>
+	<usuario>cristhian</usuario>
+	<contrasena>cristhian12331</contrasena>
+	<nombreCompleto>231</nombreCompleto>
+	<direccion>sad</direccion>
+	<celular>231</celular>
+</usuario_unico>
+<usuario_unico>
+	<usuario>tester</usuario>
+	<contrasena>testerqa</contrasena>
+	<nombreCompleto>soy un tester :D</nombreCompleto>
+	<direccion>no me acuerdo</direccion>
+	<celular>32</celular>
+</usuario_unico>
+<usuario_unico>
+	<usuario>Angie2902</usuario>
+	<contrasena>Angie12</contrasena>
+	<nombreCompleto>Angie Florez</nombreCompleto>
+	<direccion>39</direccion>
+	<celular>321382763</celular>
+</usuario_unico>
+	
+</registro_usuario>
