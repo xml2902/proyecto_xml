@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mascotas [
+<!ELEMENT mascotas (mascota)*>
+<!ELEMENT mascota (nombre , edad , especie)>
+<!ATTLIST mascota codigo ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT especie (#PCDATA)>
+]>
+<mascotas>
+	
+	
+	
+	
+	<mascota codigo="05">
+		<nombre>fénix</nombre>
+		<edad>2</edad>
+		<especie>pajaro</especie>
+	</mascota>
+	<mascota codigo="06">
+		<nombre>Hades</nombre>
+		<edad>5</edad>
+		<especie>canino</especie>
+	</mascota>
+	
+	<mascota codigo="08">
+		<nombre>luz</nombre>
+		<edad>1</edad>
+		<especie>canino</especie>
+	</mascota>
+	<mascota codigo="09">
+		<nombre>Bills</nombre>
+		<edad>2</edad>
+		<especie>gato</especie>
+	</mascota>
+	<mascota codigo="10">
+		<nombre>Wiss</nombre>
+		<edad>3</edad>
+		<especie>gato</especie>
+	</mascota>
+</mascotas>
