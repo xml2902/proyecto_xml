@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tarjeta_adopcion [
+<!ELEMENT tarjeta_adopcion (adopcion)>
+<!ELEMENT adopcion (mascota , usuario)>
+<!ATTLIST adopcion codigoMascota CDATA #REQUIRED>
+<!ATTLIST adopcion usuarioNombre CDATA #REQUIRED>
+<!ELEMENT mascota (nombre , edad , especie)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT especie (#PCDATA)>
+<!ELEMENT usario (nombreCompleto , direccion , celular)>
+<!ELEMENT nombreCompleto (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT celular (#PCDATA)>
+]>
+<tarjeta_adopcion>
+
+<adopcion codigoMascota="01" usuarioNombre="cristhian"><nombreCompleto>cristhian david</nombreCompleto><direccion>no sé </direccion><celular>22323</celular></adopcion><adopcion codigoMascota="03" usuarioNombre="cristhian"><nombreCompleto>cristhian david</nombreCompleto><direccion>no sé </direccion><celular>22323</celular></adopcion><adopcion codigoMascota="00" usuarioNombre="cristhian"><nombreCompleto>cristhian david</nombreCompleto><direccion>no sé </direccion><celular>22323</celular></adopcion><adopcion codigoMascota="03" usuarioNombre="cristhian"><nombreCompleto>cristhian david</nombreCompleto><direccion>no sé </direccion><celular>22323</celular></adopcion><adopcion codigoMascota="01" usuarioNombre="Angie2902"><nombreCompleto>Angie Florez</nombreCompleto><direccion>Cra 39#26A-49</direccion><celular>3128764509</celular></adopcion><adopcion codigoMascota="07" usuarioNombre="Angie2902"><nombreCompleto/><direccion/><celular/></adopcion><adopcion codigoMascota="04" usuarioNombre="Angie2902"><nombreCompleto/><direccion/><celular/></adopcion></tarjeta_adopcion>
